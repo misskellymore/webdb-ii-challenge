@@ -8,8 +8,7 @@ module.exports = {
       filename: './data/cars.sqlite3'
     },
     useNullAsDefault: true,
-  },
-
+    
   migrations: {
     directory: './data/migrations'
   },
@@ -17,5 +16,8 @@ module.exports = {
   seeds: {
     directory: './data/seeds'
   }
+
+
+  },
 
 };
